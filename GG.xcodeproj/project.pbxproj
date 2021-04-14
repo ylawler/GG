@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC772C9D2620CAD00021EBF0 /* TournamentCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC772C9B2620CAD00021EBF0 /* TournamentCVC.swift */; };
+		AC772C9E2620CAD00021EBF0 /* TournamentCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC772C9C2620CAD00021EBF0 /* TournamentCVC.xib */; };
+		AC772CAE2620D84E0021EBF0 /* colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC772CAD2620D84E0021EBF0 /* colours.swift */; };
+		AC772CB42624FBCE0021EBF0 /* StickyHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC772CB22624FBCE0021EBF0 /* StickyHeaderReusableView.swift */; };
+		AC772CB52624FBCE0021EBF0 /* StickyHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC772CB32624FBCE0021EBF0 /* StickyHeaderReusableView.xib */; };
+		AC772CD52624FDF10021EBF0 /* TournamentDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC772CD32624FDF10021EBF0 /* TournamentDetailCVC.swift */; };
+		AC772CD62624FDF10021EBF0 /* TournamentDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC772CD42624FDF10021EBF0 /* TournamentDetailCVC.xib */; };
+		AC772CDB2624FF740021EBF0 /* TournamentDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC772CDA2624FF740021EBF0 /* TournamentDetailVM.swift */; };
+		AC7E170C25FF842700A9BDBC /* FutureTournamentsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E170A25FF842600A9BDBC /* FutureTournamentsCVC.swift */; };
+		AC7E170D25FF842700A9BDBC /* FutureTournamentsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7E170B25FF842600A9BDBC /* FutureTournamentsCVC.xib */; };
+		AC7E171625FF843B00A9BDBC /* UpcomingTournamentsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E171425FF843B00A9BDBC /* UpcomingTournamentsCVC.swift */; };
+		AC7E171725FF843B00A9BDBC /* UpcomingTournamentsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7E171525FF843B00A9BDBC /* UpcomingTournamentsCVC.xib */; };
+		AC7E171E25FF8BA000A9BDBC /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E171C25FF8BA000A9BDBC /* HeaderReusableView.swift */; };
+		AC7E171F25FF8BA000A9BDBC /* HeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7E171D25FF8BA000A9BDBC /* HeaderReusableView.xib */; };
+		AC7E1733260123BF00A9BDBC /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E1732260123BF00A9BDBC /* HomeVM.swift */; };
+		AC7E17382601ED5B00A9BDBC /* ChatVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E17372601ED5B00A9BDBC /* ChatVM.swift */; };
+		AC7E173D2601F0AF00A9BDBC /* ChatDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E173C2601F0AE00A9BDBC /* ChatDetailVC.swift */; };
 		ACBBC7A825FD40C100F7CBE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7A725FD40C100F7CBE3 /* AppDelegate.swift */; };
 		ACBBC7AA25FD40C100F7CBE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7A925FD40C100F7CBE3 /* SceneDelegate.swift */; };
-		ACBBC7AC25FD40C100F7CBE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7AB25FD40C100F7CBE3 /* ViewController.swift */; };
 		ACBBC7AF25FD40C100F7CBE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC7AD25FD40C100F7CBE3 /* Main.storyboard */; };
 		ACBBC7B225FD40C100F7CBE3 /* GG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7B025FD40C100F7CBE3 /* GG.xcdatamodeld */; };
 		ACBBC7B425FD40C600F7CBE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC7B325FD40C600F7CBE3 /* Assets.xcassets */; };
 		ACBBC7B725FD40C600F7CBE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC7B525FD40C600F7CBE3 /* LaunchScreen.storyboard */; };
 		ACBBC7C225FD40C600F7CBE3 /* GGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7C125FD40C600F7CBE3 /* GGTests.swift */; };
 		ACBBC7CD25FD40C600F7CBE3 /* GGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7CC25FD40C600F7CBE3 /* GGUITests.swift */; };
+		ACBBC7EA25FD7E8100F7CBE3 /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7E825FD7E8100F7CBE3 /* ChatCollectionViewCell.swift */; };
+		ACBBC7EB25FD7E8100F7CBE3 /* ChatCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC7E925FD7E8100F7CBE3 /* ChatCollectionViewCell.xib */; };
+		ACBBC7F425FE279800F7CBE3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7F325FE279800F7CBE3 /* HomeViewController.swift */; };
+		ACBBC7FC25FE27A400F7CBE3 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7FB25FE27A400F7CBE3 /* ChatsViewController.swift */; };
+		ACBBC80225FE280300F7CBE3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC80125FE280300F7CBE3 /* Models.swift */; };
+		ACF2B46E2604E28500D44814 /* TournamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2B46D2604E28500D44814 /* TournamentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +58,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC772C9B2620CAD00021EBF0 /* TournamentCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentCVC.swift; sourceTree = "<group>"; };
+		AC772C9C2620CAD00021EBF0 /* TournamentCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TournamentCVC.xib; sourceTree = "<group>"; };
+		AC772CAD2620D84E0021EBF0 /* colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colours.swift; sourceTree = "<group>"; };
+		AC772CB22624FBCE0021EBF0 /* StickyHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderReusableView.swift; sourceTree = "<group>"; };
+		AC772CB32624FBCE0021EBF0 /* StickyHeaderReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickyHeaderReusableView.xib; sourceTree = "<group>"; };
+		AC772CD32624FDF10021EBF0 /* TournamentDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentDetailCVC.swift; sourceTree = "<group>"; };
+		AC772CD42624FDF10021EBF0 /* TournamentDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TournamentDetailCVC.xib; sourceTree = "<group>"; };
+		AC772CDA2624FF740021EBF0 /* TournamentDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentDetailVM.swift; sourceTree = "<group>"; };
+		AC7E170A25FF842600A9BDBC /* FutureTournamentsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureTournamentsCVC.swift; sourceTree = "<group>"; };
+		AC7E170B25FF842600A9BDBC /* FutureTournamentsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureTournamentsCVC.xib; sourceTree = "<group>"; };
+		AC7E171425FF843B00A9BDBC /* UpcomingTournamentsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTournamentsCVC.swift; sourceTree = "<group>"; };
+		AC7E171525FF843B00A9BDBC /* UpcomingTournamentsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingTournamentsCVC.xib; sourceTree = "<group>"; };
+		AC7E171C25FF8BA000A9BDBC /* HeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderReusableView.swift; sourceTree = "<group>"; };
+		AC7E171D25FF8BA000A9BDBC /* HeaderReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderReusableView.xib; sourceTree = "<group>"; };
+		AC7E1732260123BF00A9BDBC /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		AC7E17372601ED5B00A9BDBC /* ChatVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVM.swift; sourceTree = "<group>"; };
+		AC7E173C2601F0AE00A9BDBC /* ChatDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailVC.swift; sourceTree = "<group>"; };
 		ACBBC7A425FD40C100F7CBE3 /* GG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBBC7A725FD40C100F7CBE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBBC7A925FD40C100F7CBE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACBBC7AB25FD40C100F7CBE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACBBC7AE25FD40C100F7CBE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACBBC7B125FD40C100F7CBE3 /* GG.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GG.xcdatamodel; sourceTree = "<group>"; };
 		ACBBC7B325FD40C600F7CBE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +89,12 @@
 		ACBBC7C825FD40C600F7CBE3 /* GGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBBC7CC25FD40C600F7CBE3 /* GGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGUITests.swift; sourceTree = "<group>"; };
 		ACBBC7CE25FD40C600F7CBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBBC7E825FD7E8100F7CBE3 /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		ACBBC7E925FD7E8100F7CBE3 /* ChatCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCollectionViewCell.xib; sourceTree = "<group>"; };
+		ACBBC7F325FE279800F7CBE3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ACBBC7FB25FE27A400F7CBE3 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		ACBBC80125FE280300F7CBE3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		ACF2B46D2604E28500D44814 /* TournamentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +122,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC772CAC2620D8360021EBF0 /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				AC772CAD2620D84E0021EBF0 /* colours.swift */,
+			);
+			path = Values;
+			sourceTree = "<group>";
+		};
+		AC772CB92624FC120021EBF0 /* TournamentVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC772CD32624FDF10021EBF0 /* TournamentDetailCVC.swift */,
+				AC772CD42624FDF10021EBF0 /* TournamentDetailCVC.xib */,
+			);
+			path = TournamentVC;
+			sourceTree = "<group>";
+		};
+		AC7E16FE25FF2D0400A9BDBC /* ChatVC */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBC7E825FD7E8100F7CBE3 /* ChatCollectionViewCell.swift */,
+				ACBBC7E925FD7E8100F7CBE3 /* ChatCollectionViewCell.xib */,
+			);
+			path = ChatVC;
+			sourceTree = "<group>";
+		};
+		AC7E16FF25FF2D1900A9BDBC /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC7E170825FF83F400A9BDBC /* UpcomingTournaments */,
+				AC7E170925FF840E00A9BDBC /* FutureTournaments */,
+				AC772C9B2620CAD00021EBF0 /* TournamentCVC.swift */,
+				AC772C9C2620CAD00021EBF0 /* TournamentCVC.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		AC7E170825FF83F400A9BDBC /* UpcomingTournaments */ = {
+			isa = PBXGroup;
+			children = (
+				AC7E171425FF843B00A9BDBC /* UpcomingTournamentsCVC.swift */,
+				AC7E171525FF843B00A9BDBC /* UpcomingTournamentsCVC.xib */,
+			);
+			path = UpcomingTournaments;
+			sourceTree = "<group>";
+		};
+		AC7E170925FF840E00A9BDBC /* FutureTournaments */ = {
+			isa = PBXGroup;
+			children = (
+				AC7E170A25FF842600A9BDBC /* FutureTournamentsCVC.swift */,
+				AC7E170B25FF842600A9BDBC /* FutureTournamentsCVC.xib */,
+			);
+			path = FutureTournaments;
+			sourceTree = "<group>";
+		};
+		AC7E17292601198B00A9BDBC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC7E1732260123BF00A9BDBC /* HomeVM.swift */,
+				AC7E17372601ED5B00A9BDBC /* ChatVM.swift */,
+				AC772CDA2624FF740021EBF0 /* TournamentDetailVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AC7E17442601F2C200A9BDBC /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AC7E171C25FF8BA000A9BDBC /* HeaderReusableView.swift */,
+				AC7E171D25FF8BA000A9BDBC /* HeaderReusableView.xib */,
+				AC772CB22624FBCE0021EBF0 /* StickyHeaderReusableView.swift */,
+				AC772CB32624FBCE0021EBF0 /* StickyHeaderReusableView.xib */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		ACBBC79B25FD40C100F7CBE3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +221,12 @@
 		ACBBC7A625FD40C100F7CBE3 /* GG */ = {
 			isa = PBXGroup;
 			children = (
-				ACBBC7A725FD40C100F7CBE3 /* AppDelegate.swift */,
-				ACBBC7A925FD40C100F7CBE3 /* SceneDelegate.swift */,
-				ACBBC7AB25FD40C100F7CBE3 /* ViewController.swift */,
+				AC772CAC2620D8360021EBF0 /* Values */,
+				ACBBC80925FE285C00F7CBE3 /* Delegates */,
+				ACBBC80025FE27F500F7CBE3 /* Models */,
+				ACBBC7F225FE277500F7CBE3 /* ViewControllers */,
+				AC7E17292601198B00A9BDBC /* ViewModels */,
+				ACBBC7DD25FD523A00F7CBE3 /* Cells */,
 				ACBBC7AD25FD40C100F7CBE3 /* Main.storyboard */,
 				ACBBC7B325FD40C600F7CBE3 /* Assets.xcassets */,
 				ACBBC7B525FD40C600F7CBE3 /* LaunchScreen.storyboard */,
@@ -129,6 +252,45 @@
 				ACBBC7CE25FD40C600F7CBE3 /* Info.plist */,
 			);
 			path = GGUITests;
+			sourceTree = "<group>";
+		};
+		ACBBC7DD25FD523A00F7CBE3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AC772CB92624FC120021EBF0 /* TournamentVC */,
+				AC7E17442601F2C200A9BDBC /* Headers */,
+				AC7E16FF25FF2D1900A9BDBC /* HomeVC */,
+				AC7E16FE25FF2D0400A9BDBC /* ChatVC */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ACBBC7F225FE277500F7CBE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBC7F325FE279800F7CBE3 /* HomeViewController.swift */,
+				ACBBC7FB25FE27A400F7CBE3 /* ChatsViewController.swift */,
+				AC7E173C2601F0AE00A9BDBC /* ChatDetailVC.swift */,
+				ACF2B46D2604E28500D44814 /* TournamentViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ACBBC80025FE27F500F7CBE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBC80125FE280300F7CBE3 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACBBC80925FE285C00F7CBE3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBC7A725FD40C100F7CBE3 /* AppDelegate.swift */,
+				ACBBC7A925FD40C100F7CBE3 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +396,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBBC7EB25FD7E8100F7CBE3 /* ChatCollectionViewCell.xib in Resources */,
+				AC7E171725FF843B00A9BDBC /* UpcomingTournamentsCVC.xib in Resources */,
+				AC772CD62624FDF10021EBF0 /* TournamentDetailCVC.xib in Resources */,
 				ACBBC7B725FD40C600F7CBE3 /* LaunchScreen.storyboard in Resources */,
+				AC772CB52624FBCE0021EBF0 /* StickyHeaderReusableView.xib in Resources */,
+				AC772C9E2620CAD00021EBF0 /* TournamentCVC.xib in Resources */,
 				ACBBC7B425FD40C600F7CBE3 /* Assets.xcassets in Resources */,
+				AC7E170D25FF842700A9BDBC /* FutureTournamentsCVC.xib in Resources */,
+				AC7E171F25FF8BA000A9BDBC /* HeaderReusableView.xib in Resources */,
 				ACBBC7AF25FD40C100F7CBE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +430,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACBBC7AC25FD40C100F7CBE3 /* ViewController.swift in Sources */,
+				AC772CDB2624FF740021EBF0 /* TournamentDetailVM.swift in Sources */,
 				ACBBC7B225FD40C100F7CBE3 /* GG.xcdatamodeld in Sources */,
+				ACF2B46E2604E28500D44814 /* TournamentViewController.swift in Sources */,
+				AC7E1733260123BF00A9BDBC /* HomeVM.swift in Sources */,
+				AC7E171625FF843B00A9BDBC /* UpcomingTournamentsCVC.swift in Sources */,
 				ACBBC7A825FD40C100F7CBE3 /* AppDelegate.swift in Sources */,
+				AC7E173D2601F0AF00A9BDBC /* ChatDetailVC.swift in Sources */,
+				AC7E171E25FF8BA000A9BDBC /* HeaderReusableView.swift in Sources */,
+				ACBBC80225FE280300F7CBE3 /* Models.swift in Sources */,
+				AC7E17382601ED5B00A9BDBC /* ChatVM.swift in Sources */,
+				ACBBC7FC25FE27A400F7CBE3 /* ChatsViewController.swift in Sources */,
+				ACBBC7EA25FD7E8100F7CBE3 /* ChatCollectionViewCell.swift in Sources */,
+				AC7E170C25FF842700A9BDBC /* FutureTournamentsCVC.swift in Sources */,
 				ACBBC7AA25FD40C100F7CBE3 /* SceneDelegate.swift in Sources */,
+				AC772C9D2620CAD00021EBF0 /* TournamentCVC.swift in Sources */,
+				AC772CD52624FDF10021EBF0 /* TournamentDetailCVC.swift in Sources */,
+				AC772CB42624FBCE0021EBF0 /* StickyHeaderReusableView.swift in Sources */,
+				ACBBC7F425FE279800F7CBE3 /* HomeViewController.swift in Sources */,
+				AC772CAE2620D84E0021EBF0 /* colours.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
