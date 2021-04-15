@@ -13,6 +13,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     private let homeVM = HomeVM()
     
+    var GG_user: User?
+    
     private var selectedTournamentUpcoming: UpcomingTournament?
     private var selectedTournamentFuture: FutureTournament?
     
@@ -20,6 +22,14 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if GG_user == nil {
+            // return to login
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let VC = storyBoard.instantiateViewController(withIdentifier: "LoginVC")
+            VC.modalPresentationStyle = .fullScreen
+            self.present(VC, animated: true, completion: nil)
+        }
 
         // Do any additional setup after loading the view.
         setupNavigationAndTabBar()

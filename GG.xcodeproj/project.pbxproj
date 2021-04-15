@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC689BBF26276715005AD170 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC689BBE26276715005AD170 /* LoginVC.swift */; };
+		AC689BC426276723005AD170 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC689BC326276723005AD170 /* LoginVM.swift */; };
+		AC689BCC26276FC4005AD170 /* loginDescCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC689BCA26276FC4005AD170 /* loginDescCVC.swift */; };
+		AC689BCD26276FC4005AD170 /* loginDescCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC689BCB26276FC4005AD170 /* loginDescCVC.xib */; };
+		AC689BD22627C3FF005AD170 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC689BD12627C3FF005AD170 /* ProfileVC.swift */; };
+		AC689BD726281818005AD170 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC689BD626281818005AD170 /* SignInVC.swift */; };
+		AC689BDC26281831005AD170 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC689BDB26281831005AD170 /* CreateAccountVC.swift */; };
 		AC772C9D2620CAD00021EBF0 /* TournamentCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC772C9B2620CAD00021EBF0 /* TournamentCVC.swift */; };
 		AC772C9E2620CAD00021EBF0 /* TournamentCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC772C9C2620CAD00021EBF0 /* TournamentCVC.xib */; };
 		AC772CAE2620D84E0021EBF0 /* colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC772CAD2620D84E0021EBF0 /* colours.swift */; };
@@ -58,6 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC689BBE26276715005AD170 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AC689BC326276723005AD170 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		AC689BCA26276FC4005AD170 /* loginDescCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginDescCVC.swift; sourceTree = "<group>"; };
+		AC689BCB26276FC4005AD170 /* loginDescCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loginDescCVC.xib; sourceTree = "<group>"; };
+		AC689BD12627C3FF005AD170 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		AC689BD626281818005AD170 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		AC689BDB26281831005AD170 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		AC772C9B2620CAD00021EBF0 /* TournamentCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentCVC.swift; sourceTree = "<group>"; };
 		AC772C9C2620CAD00021EBF0 /* TournamentCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TournamentCVC.xib; sourceTree = "<group>"; };
 		AC772CAD2620D84E0021EBF0 /* colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colours.swift; sourceTree = "<group>"; };
@@ -122,6 +136,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC689BC826276F82005AD170 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AC689BC926276F88005AD170 /* Description */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AC689BC926276F88005AD170 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				AC689BCA26276FC4005AD170 /* loginDescCVC.swift */,
+				AC689BCB26276FC4005AD170 /* loginDescCVC.xib */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
 		AC772CAC2620D8360021EBF0 /* Values */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +214,7 @@
 				AC7E1732260123BF00A9BDBC /* HomeVM.swift */,
 				AC7E17372601ED5B00A9BDBC /* ChatVM.swift */,
 				AC772CDA2624FF740021EBF0 /* TournamentDetailVM.swift */,
+				AC689BC326276723005AD170 /* LoginVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -257,6 +289,7 @@
 		ACBBC7DD25FD523A00F7CBE3 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				AC689BC826276F82005AD170 /* Login */,
 				AC772CB92624FC120021EBF0 /* TournamentVC */,
 				AC7E17442601F2C200A9BDBC /* Headers */,
 				AC7E16FF25FF2D1900A9BDBC /* HomeVC */,
@@ -272,6 +305,10 @@
 				ACBBC7FB25FE27A400F7CBE3 /* ChatsViewController.swift */,
 				AC7E173C2601F0AE00A9BDBC /* ChatDetailVC.swift */,
 				ACF2B46D2604E28500D44814 /* TournamentViewController.swift */,
+				AC689BBE26276715005AD170 /* LoginVC.swift */,
+				AC689BD12627C3FF005AD170 /* ProfileVC.swift */,
+				AC689BD626281818005AD170 /* SignInVC.swift */,
+				AC689BDB26281831005AD170 /* CreateAccountVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -403,6 +440,7 @@
 				AC772CB52624FBCE0021EBF0 /* StickyHeaderReusableView.xib in Resources */,
 				AC772C9E2620CAD00021EBF0 /* TournamentCVC.xib in Resources */,
 				ACBBC7B425FD40C600F7CBE3 /* Assets.xcassets in Resources */,
+				AC689BCD26276FC4005AD170 /* loginDescCVC.xib in Resources */,
 				AC7E170D25FF842700A9BDBC /* FutureTournamentsCVC.xib in Resources */,
 				AC7E171F25FF8BA000A9BDBC /* HeaderReusableView.xib in Resources */,
 				ACBBC7AF25FD40C100F7CBE3 /* Main.storyboard in Resources */,
@@ -431,6 +469,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC772CDB2624FF740021EBF0 /* TournamentDetailVM.swift in Sources */,
+				AC689BD22627C3FF005AD170 /* ProfileVC.swift in Sources */,
+				AC689BD726281818005AD170 /* SignInVC.swift in Sources */,
 				ACBBC7B225FD40C100F7CBE3 /* GG.xcdatamodeld in Sources */,
 				ACF2B46E2604E28500D44814 /* TournamentViewController.swift in Sources */,
 				AC7E1733260123BF00A9BDBC /* HomeVM.swift in Sources */,
@@ -444,7 +484,11 @@
 				ACBBC7EA25FD7E8100F7CBE3 /* ChatCollectionViewCell.swift in Sources */,
 				AC7E170C25FF842700A9BDBC /* FutureTournamentsCVC.swift in Sources */,
 				ACBBC7AA25FD40C100F7CBE3 /* SceneDelegate.swift in Sources */,
+				AC689BC426276723005AD170 /* LoginVM.swift in Sources */,
+				AC689BBF26276715005AD170 /* LoginVC.swift in Sources */,
+				AC689BDC26281831005AD170 /* CreateAccountVC.swift in Sources */,
 				AC772C9D2620CAD00021EBF0 /* TournamentCVC.swift in Sources */,
+				AC689BCC26276FC4005AD170 /* loginDescCVC.swift in Sources */,
 				AC772CD52624FDF10021EBF0 /* TournamentDetailCVC.swift in Sources */,
 				AC772CB42624FBCE0021EBF0 /* StickyHeaderReusableView.swift in Sources */,
 				ACBBC7F425FE279800F7CBE3 /* HomeViewController.swift in Sources */,
