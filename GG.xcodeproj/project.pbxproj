@@ -31,6 +31,13 @@
 		AC7E1733260123BF00A9BDBC /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E1732260123BF00A9BDBC /* HomeVM.swift */; };
 		AC7E17382601ED5B00A9BDBC /* ChatVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E17372601ED5B00A9BDBC /* ChatVM.swift */; };
 		AC7E173D2601F0AF00A9BDBC /* ChatDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E173C2601F0AE00A9BDBC /* ChatDetailVC.swift */; };
+		AC9022ED262B72E6006AD5F7 /* GGLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9022EC262B72E6006AD5F7 /* GGLoginVC.swift */; };
+		ACA5D6F52628E14C00BF0A51 /* TextFieldEntryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5D6F32628E14C00BF0A51 /* TextFieldEntryCVC.swift */; };
+		ACA5D6F62628E14C00BF0A51 /* TextFieldEntryCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA5D6F42628E14C00BF0A51 /* TextFieldEntryCVC.xib */; };
+		ACA5D7022628E6EE00BF0A51 /* ButtonCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5D7002628E6EE00BF0A51 /* ButtonCVC.swift */; };
+		ACA5D7032628E6EE00BF0A51 /* ButtonCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA5D7012628E6EE00BF0A51 /* ButtonCVC.xib */; };
+		ACA5D70D262B31A800BF0A51 /* MultipleEntriesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5D70B262B31A800BF0A51 /* MultipleEntriesCVC.swift */; };
+		ACA5D70E262B31A800BF0A51 /* MultipleEntriesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA5D70C262B31A800BF0A51 /* MultipleEntriesCVC.xib */; };
 		ACBBC7A825FD40C100F7CBE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7A725FD40C100F7CBE3 /* AppDelegate.swift */; };
 		ACBBC7AA25FD40C100F7CBE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBBC7A925FD40C100F7CBE3 /* SceneDelegate.swift */; };
 		ACBBC7AF25FD40C100F7CBE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBBC7AD25FD40C100F7CBE3 /* Main.storyboard */; };
@@ -89,6 +96,13 @@
 		AC7E1732260123BF00A9BDBC /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		AC7E17372601ED5B00A9BDBC /* ChatVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVM.swift; sourceTree = "<group>"; };
 		AC7E173C2601F0AE00A9BDBC /* ChatDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailVC.swift; sourceTree = "<group>"; };
+		AC9022EC262B72E6006AD5F7 /* GGLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGLoginVC.swift; sourceTree = "<group>"; };
+		ACA5D6F32628E14C00BF0A51 /* TextFieldEntryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEntryCVC.swift; sourceTree = "<group>"; };
+		ACA5D6F42628E14C00BF0A51 /* TextFieldEntryCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldEntryCVC.xib; sourceTree = "<group>"; };
+		ACA5D7002628E6EE00BF0A51 /* ButtonCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCVC.swift; sourceTree = "<group>"; };
+		ACA5D7012628E6EE00BF0A51 /* ButtonCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCVC.xib; sourceTree = "<group>"; };
+		ACA5D70B262B31A800BF0A51 /* MultipleEntriesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleEntriesCVC.swift; sourceTree = "<group>"; };
+		ACA5D70C262B31A800BF0A51 /* MultipleEntriesCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultipleEntriesCVC.xib; sourceTree = "<group>"; };
 		ACBBC7A425FD40C100F7CBE3 /* GG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBBC7A725FD40C100F7CBE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBBC7A925FD40C100F7CBE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +153,8 @@
 		AC689BC826276F82005AD170 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				ACA5D70A262B318700BF0A51 /* CreateAccount */,
+				ACA5D6F22628E12000BF0A51 /* SignIn */,
 				AC689BC926276F88005AD170 /* Description */,
 			);
 			path = Login;
@@ -230,6 +246,34 @@
 			path = Headers;
 			sourceTree = "<group>";
 		};
+		AC9022F1262B7312006AD5F7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AC9022EC262B72E6006AD5F7 /* GGLoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		ACA5D6F22628E12000BF0A51 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				ACA5D6F32628E14C00BF0A51 /* TextFieldEntryCVC.swift */,
+				ACA5D6F42628E14C00BF0A51 /* TextFieldEntryCVC.xib */,
+				ACA5D7002628E6EE00BF0A51 /* ButtonCVC.swift */,
+				ACA5D7012628E6EE00BF0A51 /* ButtonCVC.xib */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		ACA5D70A262B318700BF0A51 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				ACA5D70B262B31A800BF0A51 /* MultipleEntriesCVC.swift */,
+				ACA5D70C262B31A800BF0A51 /* MultipleEntriesCVC.xib */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
 		ACBBC79B25FD40C100F7CBE3 = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +345,7 @@
 		ACBBC7F225FE277500F7CBE3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AC9022F1262B7312006AD5F7 /* Login */,
 				ACBBC7F325FE279800F7CBE3 /* HomeViewController.swift */,
 				ACBBC7FB25FE27A400F7CBE3 /* ChatsViewController.swift */,
 				AC7E173C2601F0AE00A9BDBC /* ChatDetailVC.swift */,
@@ -434,6 +479,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBBC7EB25FD7E8100F7CBE3 /* ChatCollectionViewCell.xib in Resources */,
+				ACA5D70E262B31A800BF0A51 /* MultipleEntriesCVC.xib in Resources */,
+				ACA5D7032628E6EE00BF0A51 /* ButtonCVC.xib in Resources */,
+				ACA5D6F62628E14C00BF0A51 /* TextFieldEntryCVC.xib in Resources */,
 				AC7E171725FF843B00A9BDBC /* UpcomingTournamentsCVC.xib in Resources */,
 				AC772CD62624FDF10021EBF0 /* TournamentDetailCVC.xib in Resources */,
 				ACBBC7B725FD40C600F7CBE3 /* LaunchScreen.storyboard in Resources */,
@@ -469,6 +517,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC772CDB2624FF740021EBF0 /* TournamentDetailVM.swift in Sources */,
+				ACA5D70D262B31A800BF0A51 /* MultipleEntriesCVC.swift in Sources */,
 				AC689BD22627C3FF005AD170 /* ProfileVC.swift in Sources */,
 				AC689BD726281818005AD170 /* SignInVC.swift in Sources */,
 				ACBBC7B225FD40C100F7CBE3 /* GG.xcdatamodeld in Sources */,
@@ -480,6 +529,7 @@
 				AC7E171E25FF8BA000A9BDBC /* HeaderReusableView.swift in Sources */,
 				ACBBC80225FE280300F7CBE3 /* Models.swift in Sources */,
 				AC7E17382601ED5B00A9BDBC /* ChatVM.swift in Sources */,
+				ACA5D7022628E6EE00BF0A51 /* ButtonCVC.swift in Sources */,
 				ACBBC7FC25FE27A400F7CBE3 /* ChatsViewController.swift in Sources */,
 				ACBBC7EA25FD7E8100F7CBE3 /* ChatCollectionViewCell.swift in Sources */,
 				AC7E170C25FF842700A9BDBC /* FutureTournamentsCVC.swift in Sources */,
@@ -487,8 +537,10 @@
 				AC689BC426276723005AD170 /* LoginVM.swift in Sources */,
 				AC689BBF26276715005AD170 /* LoginVC.swift in Sources */,
 				AC689BDC26281831005AD170 /* CreateAccountVC.swift in Sources */,
+				ACA5D6F52628E14C00BF0A51 /* TextFieldEntryCVC.swift in Sources */,
 				AC772C9D2620CAD00021EBF0 /* TournamentCVC.swift in Sources */,
 				AC689BCC26276FC4005AD170 /* loginDescCVC.swift in Sources */,
+				AC9022ED262B72E6006AD5F7 /* GGLoginVC.swift in Sources */,
 				AC772CD52624FDF10021EBF0 /* TournamentDetailCVC.swift in Sources */,
 				AC772CB42624FBCE0021EBF0 /* StickyHeaderReusableView.swift in Sources */,
 				ACBBC7F425FE279800F7CBE3 /* HomeViewController.swift in Sources */,

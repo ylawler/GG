@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TextFieldEntryCVCId" id="gTV-IL-0wX" customClass="TextFieldEntryCVC" customModule="GG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="432" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="432" height="72"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Placeholder" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="EKd-Ag-YSD">
+                        <rect key="frame" x="0.0" y="0.0" width="432" height="71"/>
+                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vnh-1A-gci">
+                        <rect key="frame" x="0.0" y="71" width="432" height="1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="PNb-ij-Q8N"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Vnh-1A-gci" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="I8R-I3-rkc"/>
+                <constraint firstAttribute="bottom" secondItem="Vnh-1A-gci" secondAttribute="bottom" id="R0A-Rk-0eJ"/>
+                <constraint firstItem="Vnh-1A-gci" firstAttribute="top" secondItem="EKd-Ag-YSD" secondAttribute="bottom" id="Wlq-Ve-stu"/>
+                <constraint firstAttribute="trailing" secondItem="Vnh-1A-gci" secondAttribute="trailing" id="da6-ag-wDp"/>
+                <constraint firstItem="EKd-Ag-YSD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ghY-Dj-ETb"/>
+                <constraint firstAttribute="trailing" secondItem="EKd-Ag-YSD" secondAttribute="trailing" id="sEn-zg-TyW"/>
+                <constraint firstItem="EKd-Ag-YSD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ui2-rq-SNn"/>
+            </constraints>
+            <size key="customSize" width="432" height="72"/>
+            <connections>
+                <outlet property="textField" destination="EKd-Ag-YSD" id="Jw3-Ej-gQO"/>
+            </connections>
+            <point key="canvasLocation" x="-150.72463768115944" y="69.642857142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

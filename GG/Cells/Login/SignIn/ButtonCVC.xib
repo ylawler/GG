@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ButtonCVCId" id="gTV-IL-0wX" customClass="ButtonCVC" customModule="GG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="279" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="279" height="138"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPP-Uf-B0t">
+                        <rect key="frame" x="32" y="42" width="215" height="34"/>
+                        <color key="backgroundColor" red="0.94407314060000003" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.93743734980000004" green="0.94074998119999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="buttonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="CIH-ty-VbO"/>
+                        </connections>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="SWN-Ie-hGs">
+                        <rect key="frame" x="49" y="108" width="181.5" height="24"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have acconut yet" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rn9-1e-KKM">
+                                <rect key="frame" x="0.0" y="0.0" width="130.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.93743734980000004" green="0.94074998119999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n32-JH-7hQ">
+                                <rect key="frame" x="134.5" y="0.0" width="47" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="signInChoiceChangeTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="3oG-4H-UMY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="dDD-YE-r3O"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nPP-Uf-B0t" secondAttribute="trailing" constant="32" id="YlI-Yw-sJe"/>
+                <constraint firstItem="SWN-Ie-hGs" firstAttribute="top" secondItem="nPP-Uf-B0t" secondAttribute="bottom" constant="32" id="aSF-rs-y2y"/>
+                <constraint firstItem="nPP-Uf-B0t" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="32" id="hJe-Qr-2Dv"/>
+                <constraint firstAttribute="bottom" secondItem="SWN-Ie-hGs" secondAttribute="bottom" constant="6" id="qH0-0q-8Yw"/>
+                <constraint firstItem="SWN-Ie-hGs" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="ruQ-bj-ntn"/>
+                <constraint firstItem="nPP-Uf-B0t" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="42" id="u62-Do-xM0"/>
+            </constraints>
+            <size key="customSize" width="279" height="138"/>
+            <connections>
+                <outlet property="SignInChangeButton" destination="n32-JH-7hQ" id="vaR-pU-FIT"/>
+                <outlet property="SignInChangeLabel" destination="rn9-1e-KKM" id="xi6-5P-c8O"/>
+                <outlet property="button" destination="nPP-Uf-B0t" id="N2x-Wl-0hJ"/>
+            </connections>
+            <point key="canvasLocation" x="152.89855072463769" y="78.348214285714278"/>
+        </collectionViewCell>
+    </objects>
+</document>
