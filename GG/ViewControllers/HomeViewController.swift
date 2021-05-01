@@ -25,8 +25,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         if GG_user == nil {
             // return to login
-            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-            let VC = storyBoard.instantiateViewController(withIdentifier: "LoginVC")
+            let storyBoard = UIStoryboard(name: "Login", bundle: nil)
+            let VC = storyBoard.instantiateViewController(withIdentifier: "GGMainLoginVCId")
             VC.modalPresentationStyle = .fullScreen
             self.present(VC, animated: true, completion: nil)
         }

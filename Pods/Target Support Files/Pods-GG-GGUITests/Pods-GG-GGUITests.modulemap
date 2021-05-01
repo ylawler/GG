@@ -1,0 +1,6 @@
+framework module Pods_GG_GGUITests {
+  umbrella header "Pods-GG-GGUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

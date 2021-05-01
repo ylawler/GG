@@ -52,7 +52,7 @@ class CreateAccountVC: UIViewController, UICollectionViewDelegate, UICollectionV
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         createButton.translatesAutoresizingMaskIntoConstraints = false
         
-        updateCollectionViewHeight()
+//        updateCollectionViewHeight()
         setupButton(for: .loginInfo)
         hideKeyboardWhenTappedAround()
     }
@@ -66,24 +66,24 @@ class CreateAccountVC: UIViewController, UICollectionViewDelegate, UICollectionV
         }
     }
     
-    func setState(_ state: signInState) {
-        self.state = state
-        updateCollectionViewHeight()
-    }
+//    func setState(_ state: signInState) {
+//        self.state = state
+//        updateCollectionViewHeight()
+//    }
     
-    func updateCollectionViewHeight() {
-        switch self.state {
-        case .userInfo:
-            collectionViewHeight.constant = CGFloat(userInfoPlaceholders.count) * (cellHeight + cellSpacing)
-        case .userRegister:
-            collectionViewHeight.constant = CGFloat(userRegisterPlaceholders.count) * (cellHeight + cellSpacing)
-        default:
-            return
-        }
-        
-        collectionView.reloadData()
-        self.view.layoutSubviews()
-    }
+//    func updateCollectionViewHeight() {
+//        switch self.state {
+//        case .userInfo:
+//            collectionViewHeight.constant = CGFloat(userInfoPlaceholders.count) * (cellHeight + cellSpacing)
+//        case .userRegister:
+//            collectionViewHeight.constant = CGFloat(userRegisterPlaceholders.count) * (cellHeight + cellSpacing)
+//        default:
+//            return
+//        }
+//
+//        collectionView.reloadData()
+//        self.view.layoutSubviews()
+//    }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
@@ -97,11 +97,11 @@ class CreateAccountVC: UIViewController, UICollectionViewDelegate, UICollectionV
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MultipleEntriesCVC.identifier, for: indexPath) as! MultipleEntriesCVC
         
-        if indexPath.section == 0 {
-            cell.configure(placeholders: userInfoPlaceholders)
-        } else {
-            cell.configure(placeholders: userRegisterPlaceholders)
-        }
+//        if indexPath.section == 0 {
+//            cell.configure(placeholders: userInfoPlaceholders)
+//        } else {
+//            cell.configure(placeholders: userRegisterPlaceholders)
+//        }
         
         
         return cell
@@ -129,23 +129,23 @@ class CreateAccountVC: UIViewController, UICollectionViewDelegate, UICollectionV
     @IBAction func createButtonTapped(_ sender: UIButton) {
         var buttonState: createButtonState = .loginInfo
         var scrollToIndex: IndexPath = IndexPath(item: 0, section: 1)
-        
-        if self.state == .userInfo {
-            self.state = .userRegister
-            buttonState = .playerInfo
-        } else if self.state == .userRegister {
-            self.state = .userInfo
-            buttonState = .loginInfo
-            scrollToIndex = IndexPath(item: 0, section: 0)
-        }
-        
-        UIView.animate(withDuration: 0.75, delay: 0.1, options: .curveEaseInOut) {
-            self.collectionView.scrollToItem(at: scrollToIndex, at: .left, animated: true)
-            self.setupButton(for: buttonState)
-            self.updateCollectionViewHeight()
-        } completion: { (completed) in
-            print("completed animation: \(completed)")
-        }
+//
+//        if self.state == .userInfo {
+//            self.state = .userRegister
+//            buttonState = .playerInfo
+//        } else if self.state == .userRegister {
+//            self.state = .userInfo
+//            buttonState = .loginInfo
+//            scrollToIndex = IndexPath(item: 0, section: 0)
+//        }
+//
+//        UIView.animate(withDuration: 0.75, delay: 0.1, options: .curveEaseInOut) {
+//            self.collectionView.scrollToItem(at: scrollToIndex, at: .left, animated: true)
+//            self.setupButton(for: buttonState)
+//            self.updateCollectionViewHeight()
+//        } completion: { (completed) in
+//            print("completed animation: \(completed)")
+//        }
 
         
         

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>756747024721-0dlackf6qs1d2ogndsejdk71ofrfl1jf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.756747024721-0dlackf6qs1d2ogndsejdk71ofrfl1jf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_vV6BNbyKtu8BKlxaRRrY4idelh6dXuk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>756747024721</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ylawer.GG</string>
+	<key>PROJECT_ID</key>
+	<string>gg-gaming-2ac2f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gg-gaming-2ac2f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:756747024721:ios:ddb14e757a63530cda3b70</string>
+</dict>
+</plist>
